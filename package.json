@@ -1,0 +1,28 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "Boiler for reactjs with sign in and sign up authentication added.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthonywdev/React-boiler-plate.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "Boiler-plate"
+  ],
+  "author": "Anthony Enninful Kweku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthonywdev/React-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/Anthonywdev/React-boiler-plate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "nodemon": "^2.0.4"
+  }
+}
