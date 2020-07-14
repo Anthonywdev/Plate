@@ -1,14 +1,15 @@
 {
-  "name": "boiler-plate",
+  "name": "plate",
   "version": "1.0.0",
   "description": "Boiler for reactjs with sign in and sign up authentication added.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anthonywdev/React-boiler-plate.git"
+    "url": "git+https://github.com/Anthonywdev/Plate.git"
   },
   "keywords": [
     "Reactjs",
@@ -17,12 +18,16 @@
   "author": "Anthony Enninful Kweku",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Anthonywdev/React-boiler-plate/issues"
+    "url": "https://github.com/Anthonywdev/Plate/issues"
   },
-  "homepage": "https://github.com/Anthonywdev/React-boiler-plate#readme",
+  "homepage": "https://github.com/Anthonywdev/Plate#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
-    "mongoose": "^5.9.24",
+    "mongoose": "^5.9.24"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   }
 }
