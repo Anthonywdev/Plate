@@ -50,7 +50,6 @@ app.post("/api/users/register", (req, res) => {
     if (err) return res.json({ success: false, err });
     return res.status(200).json({
       success: true,
-      userData: doc,
     });
   });
 });
@@ -89,7 +88,7 @@ app.get("/api/users/logout", auth, (req, res) => {
 
 // root connection of application
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
